@@ -1,0 +1,59 @@
+
+.container {
+	background-image: url(бабуля.jpg);
+	width: 1280px;
+	height: 630px;
+	display: relative;
+	margin: 0 auto;
+	background-repeat: no-repeat;
+}
+	
+.logo {
+	width: 120px;
+	height: 45px;
+	display: absolute;
+	padding-top: 12px;
+	padding-left: 50px;
+ }
+ h1 {
+ 	text-transform: uppercase;
+ 	position: absolute;
+ 	top: 430px;
+ 	color: #ffffff;
+ }
+p {
+	position: absolute;
+	top: 480px;
+	color: #ffffff;
+}
+a {
+	color: #ffffff;
+   text-decoration: none;
+}
+
+.menu ul { 
+	display: relative;
+}
+.menu li:hover ul { 
+	display: block; 
+}
+.menu, .menu ul {
+  list-style: none;
+}
+.menu li { 
+	float: right;
+	padding: 25px; 
+}
+
+.article {
+	position: relative;
+}
+
+.article p {
+	color: #363e3e;
+	text-align: center;
+}
+.article h1 {
+	color: #35da6a;
+	text-align: center;
+}
