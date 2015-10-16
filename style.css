@@ -1,54 +1,115 @@
 
-.container {
-	background-image: url(бабуля.jpg);
+
+
+.head {
+	background-image: url("file://D:/starost-v-radost/starost_images/granny.jpg");
 	width: 1280px;
 	height: 630px;
-	display: relative;
-	margin: 0 auto;
+	position: relative;
 	background-repeat: no-repeat;
+	padding-top: 20px;
+	padding-right:50px; 
+	padding-bottom: 80px; 
+	padding-left: 50px; 
 }
 	
 .logo {
 	width: 120px;
 	height: 45px;
-	display: absolute;
-	padding-top: 12px;
-	padding-left: 50px;
- }
- h1 {
- 	text-transform: uppercase;
- 	position: absolute;
- 	top: 430px;
- 	color: #ffffff;
- }
-p {
 	position: absolute;
-	top: 480px;
+ }
+ .citata {
+ 	height: 155px;
+ 	position: block;
+ 	float: right;
+ 	padding-top: 387px; 
+ }
+ .work-years {
+ 	background-image: url("file://D:/Starost-v-radost/starost_images/pic1.jpg");
+ 	width: 1280px;
+ 	height: 525px;
+
+ }
+ h1{
+ 	text-transform: uppercase;
+ 	color: #ffffff;
+ 	font-size: 48px;
+ 	text-align: left;
+ 	line-height: 25px;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 42px;
+	line-height: 30px;
+	font-weight: bold;
+	text-align: center;
+	color: #3f3329;
+	position: relative;
+}
+h3{
+	font-size: 18px;
+	line-height: 30px;
+	font-weight: bold;
+}
+p.c {
+	font-weight: 24px;
+	line-height: 24px;
 	color: #ffffff;
+	text-align: right;
+}
+
+p.c1 {
+	font-weight: 20px;
+	line-height: 24px;
+	color: #494747;
+	text-align: center;
+}
+p.text1 {
+	font-size: 16px;
+	line-height: 24px;
 }
 a {
 	color: #ffffff;
    text-decoration: none;
+   font-style: 18px;
+   line-height: 25px;
 }
 
-.menu ul { 
-	display: relative;
+.clearfix::before::after {
+content: '.';
+clear: both; 
+margin:0;  
+padding:0;  
 }
-.menu li:hover ul { 
-	display: block; 
-}
-.menu, .menu ul {
-  list-style: none;
-}
-.menu li { 
-	float: right;
-	padding: 25px; 
-}
-
-.article {
-	position: relative;
+.menu {
+	width: 437px;
+	height: 50px;
+	float: left;
+	position: absolute;
 }
 
+
+
+.menu, .menu li {
+margin: 0;
+padding: 0;
+
+}
+.menu li {
+	display: inline-block;
+	text-align: center;
+}
+.menu a {
+	display: block;/*ссылка растягиваеться на весь блок*/
+	padding: 3px 15px;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+.menu a:hover {
+	background-color: #253a2d; /*фон пунктов при наведении*/
+}
 .article p {
 	color: #363e3e;
 	text-align: center;
@@ -56,4 +117,25 @@ a {
 .article h1 {
 	color: #35da6a;
 	text-align: center;
+}
+.clearfix:before {
+content: '.';
+clear:both;  
+margin:0;  
+padding:0;  
+}
+
+.container {
+	vertical-align: center;
+	display: block;
+}
+.text{
+	position: inline-block;
+}
+.work-years {
+	height: 527px;
+}
+.can-you-help {
+	height: 421px;
+	position: absolute;
 }
