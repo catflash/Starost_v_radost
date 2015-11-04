@@ -1,16 +1,8 @@
 body {
-	min-width: 1024px;
 	margin: 0px;
+	padding: 0px;
+	min-width: 1240px;
 	font-family: 'PT Sans', sans-serif;
-}
-@font-face {
-  font-family: 'PT Sans';
-  src: url('webfont.eot'); /* IE9 Compat Modes */
-  src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 .header {
 	background-image: url(img/old-granny.jpg);
@@ -19,7 +11,7 @@ body {
 	height: 630px;
 }
 .wrapper {
-	width: 1280px;
+	width: 1200px;
 	margin: 0px auto;
 }
 .logo {
@@ -45,7 +37,7 @@ body {
 	display: block;
 }
 #navigation ul {
-	background: transperent;
+	background: transparent;
 	padding: 0 48px;  
 	margin-top: 16px;
 	list-style: none;
@@ -54,18 +46,18 @@ body {
 	float: right;
 }
 #navigation ul:after {
-		content: "";
-		clear: both;
-		display: block;
+	content: "";
+	clear: both;
+	display: block;
 }
 #navigation ul li {
 	float: left;
 }
 #navigation ul li:hover {
-		background: rgba(18, 31, 21, 0.7);
+	background: rgba(18, 31, 21, 0.7);
 }
 #navigation ul li:hover a {
-			color: #a8d3b6;
+	color: #a8d3b6;
 }
 #navigation ul li a {
 		display: block;
@@ -135,7 +127,7 @@ h2 {
 	text-align: center;
 	background-color: white;
 	height: 640px;
-	width: 1280px;
+	width: 100%;
 	margin: 0 auto;
 }
 .what-we-do h2 {
@@ -149,7 +141,7 @@ h2 {
     margin-left: -60px;
 }
 .row-1 .col-4 {
-    margin-right: 20px;
+    margin-right: 0px;
 	float: left;
 	width: 25%;
 }
@@ -257,7 +249,7 @@ h2 {
 	font-weight: 400;
 	line-height: 24px;
 }
-#box-1 a {
+.arrow-box a {
 	position: relative;
 	color: #ecfaf6;
 	font-size: 16px;
@@ -277,14 +269,18 @@ h2 {
 	border-bottom: 5px solid transparent;
 	border-top: 5px solid transparent;
 	border-left: 8px solid #35da6a;
-	margin: 12px 5px;
+	margin: 11px 5px;
 }
 .btn {
+	display: inline-block;
 	cursor: pointer;
-	margin: 20px auto 0px;
+	margin: 40px 200px 0px;
+	padding: 11px 20px;
 	border: 2px solid #2bbd5a;
-	width: 240px;
-	height: 53px;
+	color:  #2bbd5a;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 31px;
 	text-align: center;  
 	transition: all 0.15s ease-in-out 0s;
 }
@@ -294,15 +290,14 @@ h2 {
 	font-weight: 400;
 	line-height: 30px;
 	position: relative;
-	border-bottom: none;
 	top: 9px;
 	width: 240px;
 	height: 53px;
 	transition: all 0.15s ease-in-out 0s;
 }
-#box-1 .btn a:hover {
+/*.btn:hover a{
 	color: #fafafa;
-}
+}*/
 .btn:hover, .btn:focus {
 	border-color: #35DA6A;
 	background-color: #35da6a;
@@ -310,25 +305,13 @@ h2 {
 }
 .contacts {
 	background: white;
-	height: 1310px;
 	text-align: center;
-}
-#copyright,
-#fb,
-#stagirovka,
-#design-by {
-	float: left;
-	width: 280px;
-	margin: 10px 10px;
-}
-#stagirovka {
-	margin-top: 27px !important;
+	padding-bottom: 100px;
 }
 /*iframe {
 	pointer-events: none;
 }*/
 form {
-	height: 190px;
 	width: 470px;
 	margin-top: 74px;
 	display: block;
@@ -351,9 +334,12 @@ form {
 }
 input:focus, textarea:focus {
 	border-color: #29ab53;
+	outline: 0px;
 }
 #message {
 	height: 190px;
+	max-width: 470px;
+	padding-top: 14px;
 }
 .btn-submit {
 	width: 498px;
@@ -380,5 +366,16 @@ input:focus, textarea:focus {
 }
 .footer-content {
 	margin: 0px auto;
-	width: 1280px;
+	width: 1200px;
+}
+#copyright,
+#fb,
+#stagirovka,
+#design-by {
+	float: left;
+	width: 280px;
+	margin: 10px 10px;
+}
+#stagirovka {
+	margin-top: 27px !important;
 }
