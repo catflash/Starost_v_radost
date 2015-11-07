@@ -11,7 +11,7 @@ body {
 	height: 630px;
 }
 .wrapper {
-	width: 1200px;
+	width: 1240px;
 	margin: 0px auto;
 }
 .logo {
@@ -160,21 +160,30 @@ h2 {
 	margin: 80px auto;
 	width: 1240px;
 }
-.three-years .small-icons {
-	position: absolute;
-	bottom: 30px;
-	right: -30px
-}
-.green {
+span.green {
 	color: #35da6a;
 	text-align: center;
 	font-size: 70px;
-	display: inline-block;
+	font-weight: 700;
+	display: block;
 	position: relative;
 	margin: 0px;
 }
-.uah {
-	right: -50px !important;
+.small-icons {
+	position: absolute;
+	bottom: 30px;
+}
+.small-icons.house {
+	right: 88px;
+}
+.small-icons.uah {
+	right: -24px;
+}
+.small-icons.friends {
+	right: 60px;
+}
+.small-icons.gifts {
+	right: 46px;
 }
 .three-years .row-1 p {
 	text-transform: uppercase;
@@ -194,6 +203,8 @@ h2 {
 	width: 1240px;
 }
 .how-u-can-help a {
+	display: inline-block;
+	margin-top: 10px;
 	color: #4a4646;
 	font-size: 16px;
 	font-weight: 700;
@@ -203,9 +214,13 @@ h2 {
 	-o-transition: color 0,15s linear 0s;
 	-moz-transition: color 0,15s linear 0s;
 	transition: color 0,15s linear 0s;
-	margin-top: 30px;
-	display: inline-block;
 	text-decoration: none;
+}
+.how-u-can-help img {
+	display: block;
+	margin-bottom: 40px;
+}
+span.text-link {
 	border-bottom: 2px dashed #4a4646;
 }
 .how-u-can-help a:hover,
