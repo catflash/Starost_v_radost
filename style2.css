@@ -137,9 +137,7 @@ h2 {
     padding-left: 60px;
 	margin: 40px 42px;
  }
-.row-1 .col-4:first-child {
-    margin-left: -60px;
-}
+ 
 .row-1 .col-4 {
     margin-right: 0px;
 	float: left;
@@ -148,12 +146,28 @@ h2 {
 .row-1 .col-4:last-child {
     margin-right: 0;
 }
+
+.how-u-can-help .row-1 {
+    padding-left: 60px;
+	margin: 40px 42px;
+	width: 1240px;
+ }
+ 
+.how-u-can-help .row-1 .col-4 {
+    margin-right: 0px;
+	float: left;
+	width: 25%;
+}
+.how-u-can-help .row-1 .col-4:last-child {
+    margin-right: 0;
+}
+
 .three-years {
 	background-image: url(img/three-years.jpg);
 	background-size: cover;
 	text-align: center;
 	height: 522px;
-	padding-top: 100px;
+	padding-top: 50px;
 	color: white;
 }
 .three-years .row-1 {
@@ -174,7 +188,7 @@ span.green {
 	bottom: 30px;
 }
 .small-icons.house {
-	right: 88px;
+	right: 84px;
 }
 .small-icons.uah {
 	right: -24px;
@@ -202,13 +216,13 @@ span.green {
 	margin: 80px auto;
 	width: 1240px;
 }
-.how-u-can-help a {
+.how-u-can-help ul li a {
 	display: inline-block;
 	margin-top: 10px;
 	color: #4a4646;
 	font-size: 16px;
 	font-weight: 700;
-	line-height: 17px;
+	line-height: 30px;
 	text-transform: uppercase;
 	-webkit-transition: color 0,15s linear 0s;
 	-o-transition: color 0,15s linear 0s;
@@ -295,6 +309,7 @@ span.text-link {
 #box-1 a:hover, #box-1 a:focus {
 	color: #35da6a;
 }
+
 #box-1 .arrow-right {
 	position: absolute;
 	width: 0px;
@@ -346,7 +361,7 @@ span.text-link {
 	line-height: 30px;
 	text-align: center;
 	position: relative;
-	top: 11px;
+	top: 4px;
 }
 #box-1 .btn:hover, #box-1 .btn:focus {
 	background-color: #35da6a;
@@ -362,7 +377,6 @@ span.text-link {
 #box-1 .btn:active a{
 	color: #f0f0f0;
 }
-
 
 .contacts {
 	background: white;
@@ -400,7 +414,7 @@ input:focus, textarea:focus {
 	padding-top: 14px;
 }
 .btn-submit {
-	width: 498px;
+	width: 474px;
 	margin-top: 40px;
 	background-color:  #2bbd5a;
 	border: 1px solid transparent;
@@ -432,8 +446,22 @@ input:focus, textarea:focus {
 #design-by {
 	float: left;
 	width: 280px;
-	margin: 10px 10px;
+	margin: 12px 10px;
 }
 #stagirovka {
 	margin-top: 27px !important;
+}
+
+.nav.nav-tabs {
+	width: 1080px;
+	margin: 0 auto;
+	border-bottom: 0;
+}
+
+.nav.nav-tabs > li {
+	width: 270px;
+}
+
+.nav.nav-tabs > li.active a {
+	color: #2bbd5a;
 }
